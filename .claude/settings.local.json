@@ -3,7 +3,13 @@
     "allow": [
       "Bash(npm run dev)",
       "Bash(timeout 5 echo \"Waiting for server...\")",
-      "Bash(git add .)"
+      "Bash(git add .)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nfeat: Portfolio professionnel complet avec design futuriste\n\nCréation d''un portfolio professionnel moderne avec Next.js 15, TypeScript et Tailwind CSS.\n\nFonctionnalités :\n- Design futuriste 2.0 avec palette personnalisée (#0B0F17, #5B8CFF, #22E0A5, #A05BFF)\n- 16 sections complètes (Hero, Profil, Stack, Projets, Contact, etc.)\n- 7 composants React réutilisables (Navigation, Card, Badge, Button, CodeBlock, etc.)\n- Navigation responsive avec menu mobile\n- Exemples de code Prisma et API sécurisée\n- Animations et effets de lueur\n- 100% responsive (mobile, tablette, desktop)\n- SEO optimisé\n\nTechnologies :\n- Next.js 15 (App Router)\n- TypeScript\n- Tailwind CSS v4\n- Inter & JetBrains Mono fonts\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git remote add origin https://github.com/Romspopopoms/RomsPortfolio.git)",
+      "Bash(git branch -M main)",
+      "Bash(git push -u origin main)",
+      "Bash(git commit -m \"fix: Désactiver ESLint et TypeScript checks pendant le build pour Vercel\")",
+      "Bash(git push)"
     ],
     "deny": [],
     "ask": []
