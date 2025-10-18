@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio — Romain Carel
 
-## Getting Started
+Portfolio professionnel de Romain Carel, Développeur Fullstack & Intégrateur IA.
 
-First, run the development server:
+## 🎨 Design
+
+Design futuriste 2.0 avec une palette de couleurs moderne :
+
+- **Background**: `#0B0F17` (Bleu nuit profond)
+- **Primary**: `#5B8CFF` (Bleu électrique)
+- **Accent Neon**: `#22E0A5` (Vert néon)
+- **Accent Purple**: `#A05BFF` (Violet)
+
+## 🚀 Technologies
+
+- **Framework**: Next.js 15 (App Router)
+- **Langage**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **Fonts**: Inter & JetBrains Mono
+- **Déploiement**: Vercel (recommandé)
+
+## 📦 Installation
 
 ```bash
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build pour la production
+npm run build
+
+# Démarrer en production
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 Développement
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Le serveur de développement sera accessible sur [http://localhost:3000](http://localhost:3000)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📱 Responsive
 
-## Learn More
+Le portfolio est entièrement responsive et optimisé pour :
 
-To learn more about Next.js, take a look at the following resources:
+- 📱 Mobile (320px - 767px)
+- 📱 Tablette (768px - 1023px)
+- 💻 Desktop (1024px+)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Fonctionnalités
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- ✅ Navigation fixe avec menu mobile
+- ✅ Smooth scroll vers les sections
+- ✅ Bouton scroll-to-top
+- ✅ Animations et effets de lueur (glow)
+- ✅ Cards interactives avec hover
+- ✅ Code blocks avec copie
+- ✅ Grille de fond futuriste
+- ✅ Effets de gradient animés
+- ✅ Optimisé SEO
 
-## Deploy on Vercel
+## 📂 Structure du projet
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+romain-portfolio/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx         # Layout principal
+│   │   ├── page.tsx           # Page d'accueil
+│   │   └── globals.css        # Styles globaux & Tailwind
+│   └── components/
+│       ├── Navigation.tsx     # Navigation responsive
+│       ├── ScrollToTop.tsx    # Bouton scroll-to-top
+│       ├── Section.tsx        # Composant Section
+│       ├── Card.tsx           # Composant Card
+│       ├── Badge.tsx          # Composant Badge
+│       ├── Button.tsx         # Composant Button
+│       └── CodeBlock.tsx      # Bloc de code
+├── public/                    # Assets statiques
+├── package.json
+└── README.md
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎯 Sections
+
+1. **Hero** - Présentation et titre principal
+2. **TL;DR** - Résumé des compétences
+3. **Profil** - Présentation détaillée
+4. **Stack & Compétences** - Technologies maîtrisées
+5. **Domaines de maîtrise** - Expertise par domaine
+6. **Prisma & Data Architecture** - Exemple de code
+7. **Projets** - Portfolio de projets
+8. **Philosophie technique** - Approche et valeurs
+9. **Approche projet** - Méthodologie
+10. **Sécurité** - Bonnes pratiques
+11. **Objectif professionnel** - Recherche et ambitions
+12. **Contact** - Coordonnées
+
+## 🔧 Personnalisation
+
+Pour personnaliser le portfolio :
+
+1. Modifier les informations de contact dans `src/app/page.tsx` (section Contact)
+2. Ajouter vos propres projets
+3. Mettre à jour les métadonnées dans `src/app/layout.tsx`
+4. Personnaliser les couleurs dans `src/app/globals.css`
+
+## 📝 À faire
+
+- [ ] Ajouter les informations de contact (email, GitHub, LinkedIn)
+- [ ] Ajouter un lien vers le CV téléchargeable
+- [ ] Ajouter des images/screenshots des projets (optionnel)
+- [ ] Configurer Google Analytics (optionnel)
+- [ ] Ajouter un formulaire de contact (optionnel)
+
+## 🚢 Déploiement sur Vercel
+
+1. Push le code sur GitHub
+2. Connecter le repository à Vercel
+3. Vercel détectera automatiquement Next.js
+4. Deploy ! 🎉
+
+## 📄 Licence
+
+Ce projet est personnel et propriétaire.
+
+---
+
+**Construit avec ❤️ par Romain Carel**
